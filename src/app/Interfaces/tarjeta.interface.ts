@@ -1,5 +1,7 @@
 export interface Tarjeta{
+    id: number
     titular: string,
-    nombreTarjeta: string,
-    fechaExpiracion: string
+    numeroTarjeta: string,
+    fechaExpiracion: string,
+    cvv : string
 }
